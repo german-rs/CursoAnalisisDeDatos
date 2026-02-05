@@ -3,7 +3,7 @@ from pprint import pprint
 from src.fuentes.fuente_excel_class import FuenteExcel
 
 def saludar():
-    print("Hola la función saludar() se escribe")
+    print("La función saludar() te saluda")
 
 def read_excel():
     ventas_excel = FuenteExcel(ruta="ventas_2026.xlsx", hoja="Hoja2026")
