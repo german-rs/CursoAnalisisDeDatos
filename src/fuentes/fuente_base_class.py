@@ -1,3 +1,9 @@
+
+
+from pathlib import Path
+
+
+
 class FuenteDatos:
   """
   Esto es docsstring
@@ -5,12 +11,12 @@ class FuenteDatos:
   """
 
   # Constructor de la clase __init__
-  def __init__(self, ruta : str) -> None:
+  def __init__(self, ruta : Path) -> None:
     # Encapsulación: protegemos el acceso a la ruta
     self._ruta = ruta
 
   @property
-  def ruta(self) -> str:
+  def ruta(self) ->  Path:
     return self._ruta
 
 
